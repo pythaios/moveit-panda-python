@@ -1,0 +1,13 @@
+<package format="2">
+  <name>moveit-panda-python</name>
+  <version>1.0.0</version>
+  <description>
+    Python implementation of a pick and place task with Franka Emika's Panda robot.
+  </description>
+  <maintainer email="134403843+pythaios@users.noreply.github.com">Pythaios</maintainer>
+  <license>None</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+ 
+  <exec_depend>rospy</exec_depend>
+</package>
