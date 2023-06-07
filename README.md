@@ -5,12 +5,12 @@ Python3 implementation of a pick and place task with Franka Emika's Panda robot
 ## Prerequisites
 Follow the ["Getting started"](https://ros-planning.github.io/moveit_tutorials/doc/getting_started/getting_started.html) guide on the MoveIt Tutorials page. 
 
-The tutorial will lead you through: 
+The "Getting started" tutorial will lead you through: 
 - the installation of _ROS_ and Catkin in Ubuntu
 - the creation of a _catkin workspace_ (~/ws_moveit/)
 - the download and built of the latest _MoveIt_ source code incl. the _panda_moveit_config_ package
 
-Following the MoveIt "Quickstart in RViz tutorial" after completing above steps is a good indicator if things are set up properly.
+Following the MoveIt ["Quickstart in RViz tutorial"](https://ros-planning.github.io/moveit_tutorials/doc/quickstart_in_rviz/quickstart_in_rviz_tutorial.html) after completing above steps is a good indicator if things are set up properly.
 
 ## Pick and place task
 
