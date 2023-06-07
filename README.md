@@ -84,4 +84,9 @@ spyder
 - Ubuntu 20.04.6 LTS
 - Python 3.8.10
 - ROS Noetic v1.16.0
-- MoveIt 1 Noetic - Motion Planning Framework (https://github.com/ros-planning/moveit)
+- MoveIt 1 Noetic
+
+## References & sources
+- [MoveIt Motion Planning Framework](https://github.com/ros-planning/moveit)
+- [MoveIt Tutorials - Move Group Python Interface](https://ros-planning.github.io/moveit_tutorials/doc/move_group_python_interface/move_group_python_interface_tutorial.html)
+- [MoveIt Tutorials - Pick and Place (C++)](https://ros-planning.github.io/moveit_tutorials/doc/pick_place/pick_place_tutorial.html)
