@@ -1,6 +1,6 @@
 <launch>
 
-  <node name="panda-pick-and-place" pkg="moveit-panda-python" type="panda_pick_and_place.py" respawn="false" output="screen">
+  <node name="panda_pick_and_place" pkg="moveit_panda_python" type="panda_pick_and_place.py" respawn="false" output="screen">
   </node>
 
 </launch>
