@@ -1,5 +1,5 @@
 <package format="2">
-  <name>moveit-panda-python</name>
+  <name>moveit_panda_python</name>
   <version>1.0.0</version>
   <description>
     Python implementation of a pick and place task with Franka Emika's Panda robot.
