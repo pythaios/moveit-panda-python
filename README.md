@@ -1,5 +1,6 @@
 # moveit_panda_python
 Python3 implementation of a pick and place task with Franka Emika's Panda robot
+![Panda robot manipulating an object with MoveIt](img/moveit_panda_python.png)
 
 ## Prerequisites
 Follow the ["Getting started"](https://ros-planning.github.io/moveit_tutorials/doc/getting_started/getting_started.html) guide on the MoveIt Tutorials page. 
@@ -65,6 +66,19 @@ The terminal will prompt you to press ENTER to go through the script step by ste
 
 After completing the script, the scene incldung robot and object should look as follows:
 ![Panda robot after completing the pick and place task](/img/panda_pick_and_place.png)
+
+### Run the simulation (alternative)
+Instead of using _roslaunch_ and the `pick-and-place.launch` file, you can alternatively run the script in a Python IDE, such as Spyder.
+
+Note: Make sure that the Python path to 'rospy' and the other packages is properly set in the IDE. You can do this either by manually by adding the  modules to the Python path, in Spyder e.g. via 'Tools -> PYTHONPATH manager', or alternatively by sourcing the setup.bash script in a terminal and starting the IDE from there:
+
+```
+cd ~/ws_moveit/
+source devel/setup.bash
+spyder
+```
+
+![Running the pick and place script in a Python IDE such as Spyder](img/moveit_panda_spyder.png)
 
 ## Test configuration
 - Ubuntu 20.04.6 LTS
